@@ -20,7 +20,7 @@ In this project, I demonstrate how to configure **passwordless SSH** from **VM1 
 - Note the **private IP** of VM2.
 
 **Screenshot:**  
-step1_create_vms.png
+https://github.com/Nandini-Ellapu/azure-passwordless-ssh-demo/blob/main/step1_create_vms.png
 ---
 
 ## ✅ Step 2 — Login to VM1
@@ -30,7 +30,7 @@ step1_create_vms.png
 - Connect using your username and password.
 
 **Screenshot:** 
-step2_login_vm1.png
+https://github.com/Nandini-Ellapu/azure-passwordless-ssh-demo/blob/main/step2_login_vm1.png
 ---
 
 ## ✅ Step 3 — Generate SSH Key on VM1
@@ -44,7 +44,7 @@ Private key: ~/.ssh/id_rsa
 Public key: ~/.ssh/id_rsa.pub
 
 **Screenshot:**
-step3_ssh_keygen.png
+https://github.com/Nandini-Ellapu/azure-passwordless-ssh-demo/blob/main/step3_ssh_keygen.png
 ---
 ## ✅ Step 4 - Copy the SSH Public Key to VM2
 Run this command from VM1:
@@ -53,7 +53,7 @@ Run this command from VM1:
 - This copies the public key to VM2’s ~/.ssh/authorized_keys.
   
 **Screenshot:**
-step4_ssh_copy_id.png
+https://github.com/Nandini-Ellapu/azure-passwordless-ssh-demo/blob/main/step4_ssh_copy_id.png
 ---
 ## ✅ Step 5 — Test Passwordless SSH
 Now test SSH from VM1 → VM2:
@@ -61,7 +61,7 @@ Now test SSH from VM1 → VM2:
 ✅ This time you should connect without a password prompt.
 
 **Screenshot:**
-step5_passwordless_ssh.png
+https://github.com/Nandini-Ellapu/azure-passwordless-ssh-demo/blob/main/step5_passwordless_ssh.png
 ---
 
 🎉 **Result**
